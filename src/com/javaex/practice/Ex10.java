@@ -10,21 +10,6 @@ public class Ex10 {
 
 		Scanner sc = new Scanner(System.in);
 
-		int max=0;
-		System.out.println("숫자를 입력하세요");
-
-		for (int i = 1; i <= 5; i++) {
-			System.out.print("숫자: ");
-			int num = sc.nextInt();
-			
-			
-			if (num>=max) {
-				max = num;
-
-			}
-
-		}
-		System.out.println(max);
 		sc.close();
 	}
 
