@@ -7,6 +7,7 @@ public class Ex01 {
 		
 		//문제1번: 아래의 출력결과를 에상하여 작성하세요
 		
+		//============================== while문 ==============================
 		/*
 		예상
 		while문
@@ -23,6 +24,15 @@ public class Ex01 {
 			System.out.println("index=" + index);
 			index++;
 		}
+		/*
+		정답
+		while문
+		index=0
+		index=1
+		index=2
+		 */
+		
+		//============================== for문 ==============================
 		
 		/*
 		예상
@@ -38,6 +48,13 @@ public class Ex01 {
 			System.out.println("order=" + order);
 			
 		}
+		/*
+		정답
+		for문
+		order=0
+		order=1
+		order=2
+		 */
 		
 		
 		
