@@ -9,6 +9,8 @@ public class Ex19 {
 		int sum = 0;
 		
 		Scanner sc = new Scanner(System.in);
+		
+		//	조건문
 		while (true) {
 			System.out.println("-----------------------------");
 			System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료 ");
