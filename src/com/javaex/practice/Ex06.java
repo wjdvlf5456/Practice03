@@ -16,12 +16,12 @@ public class Ex06 {
 		int num;
 		
 		for (num=1; num<=100; num++) {
-			if (num%5==0) {
-				System.out.println(num);
-			} else if(num%7==0) {	
-				System.out.println(num);
-			} else {
+			if (num%5!=0) {
 				
+			} else if(num%7!=0) {
+				
+			} else {
+				System.out.println(num);	
 			}
 		}
 		
