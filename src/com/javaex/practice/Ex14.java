@@ -17,11 +17,13 @@ public class Ex14 {
 		
 		for (int i = 1; i <=num; i++) {
 			sum=sum+i;
-			System.out.print(i+"+");
-			
+			System.out.print(i);		//--> 마지막에는 +가 없어야 함
+			if(i!=num) {
+			System.out.print("+");
+			}
 		}
+		System.out.println();
 		System.out.print("합계: "+sum);
-		
 		
 		sc.close();
 		
