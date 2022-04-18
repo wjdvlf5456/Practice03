@@ -10,14 +10,16 @@ public class Ex17 {
 		
 		System.out.print("숫자를 입력하세요: ");
 		int num = sc.nextInt();
-		int sum = num;
 		
-		for (int i = num; i>=num; i--) {
-			sum=sum-i;
-			System.out.print("*");
+		for (int i = 1; i<=num; i++) {
+			//	*개수
+			for (int j = num; j>i; j--) {
+				System.out.print("*");
+				
+			}
+			System.out.println("");
 			
 		}
-		System.out.println("");
 		
 		sc.close();
 
