@@ -15,7 +15,6 @@ public class Ex20 {
 		while (true) {
 			System.out.print(">>");
 			int num = sc.nextInt();
-
 			if (num < odd) {
 				System.out.println("더 높게");
 			} else if (num > odd) {
@@ -24,22 +23,25 @@ public class Ex20 {
 			} else if (num == odd) {
 				System.out.println("맞았습니다.");
 				System.out.print("게임을 종료하시겠습니까?(y/n)");
-				String end = sc.next();
+				continue;
 				
-				if (end == "n") {
-					System.out.println("계속합니다.");
-					continue;
-				} else if(end == "y") { 
-				}
-				System.out.println("=================================");
-				System.out.println("\t[숫자맞추기게임 종료]");
-				System.out.println("=================================");
-				break;
-			}
-
+			}	
+			sc.close();
 		}
 
-		sc.close();
 	}
-
 }
+/*				while (true) {
+
+					if (alphabet == "n") {
+						end = alphabet;
+						System.out.println("=================================");
+						System.out.println("\t[숫자맞추기게임 시작]");
+						System.out.println("=================================");
+						continue;
+					} else if (alphabet == "y") {
+						end = alphabet;
+						System.out.println("=================================");
+						System.out.println("\t[숫자맞추기게임 종료]");
+						System.out.println("=================================");
+						break;}*/
